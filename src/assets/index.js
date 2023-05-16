@@ -21,14 +21,17 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
+import mUI from "./tech/mUI.png";
+import atmos from "./company/atmos.svg";
 import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import brototype from "./company/brototype.svg";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import Enigmamart from "./Enigmamart.png";
+import Gericht from "./Gericht.png";
+import portfolioreact from "./portfolioreact.png";
+import Cara from "./Cara.png";
+import OpenAI from "./OpenAI.png";
+import portfolio from "./portfolio.png";
 
 export {
   logo,
@@ -52,11 +55,14 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
+  mUI,
+  atmos,
   starbucks,
-  tesla,
-  carrent,
-  jobit,
-  tripguide,
+  brototype,
+  Enigmamart,
+  Gericht,
+  portfolioreact,
+  Cara,
+  OpenAI,
+  portfolio,
 };
