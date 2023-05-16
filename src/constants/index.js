@@ -15,13 +15,16 @@ import {
   git,
   figma,
   express,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
+  mUI,
+  logo,
+  brototype,
+  atmos,
+  Enigmamart,
+  Gericht,
+  portfolioreact,
+  Cara,
+  OpenAI,
+  portfolio,
   threejs,
 } from "../assets";
 
@@ -31,8 +34,12 @@ export const navLinks = [
     title: "About",
   },
   {
-    id: "work",
-    title: "Work",
+    id: "experience",
+    title: "Experience",
+  },
+  {
+    id: "projects",
+    title: "Projects",
   },
   {
     id: "contact",
@@ -50,7 +57,7 @@ const services = [
     icon: mobile,
   },
   {
-    title: "front Developer",
+    title: "fron-end Developer",
     icon: backend,
   },
   {
@@ -73,8 +80,8 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
+    name: "material UI",
+    icon: mUI,
   },
   {
     name: "React JS",
@@ -112,30 +119,30 @@ const technologies = [
     name: "express",
     icon: express,
   },
+
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Web Developer",
+    company_name: "Freelance",
+    icon: logo,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "August 2020 - sept 2021",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Participating in code reviews and providing constructive feedback.",
     ],
   },
   {
     title: "Mern Stack Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    company_name: "BrotoType",
+    icon: brototype,
+    iconBg: "#050816",
+    date: "Oct 2022 - Jan 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Developing and maintaining web applications using React.js,node.js,express.js,mongoDB and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
@@ -143,10 +150,10 @@ const experiences = [
   },
   {
     title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    company_name: "Atmos-solution",
+    icon: atmos,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Jan 2023 - April 2023",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -185,9 +192,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Enigma-Mart",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "This e-commerce app allows users to purchase laptops online. It features a user-friendly interface with login, search, and filtering options. Users can add laptops to their cart, choose payment methods including credit card and cash on delivery, and track their order status.",
     tags: [
       {
         name: "react",
@@ -198,24 +205,28 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "node.js & express.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "antd & material UI",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: Enigmamart,
+    source_code_link: "https://github.com/Vishnu-Biju/mern-e-commerce-project",
   },
   {
-    name: "Job IT",
+    name: "Gericht",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "This restaurant website serves as a platform to showcase the restaurant's new menu items and provide information about their talented chefs. It also highlights today's deals and offers. The site offers an engaging user experience with visually appealing menus, chef profiles, enticing visitors to explore the restaurant's offerings.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "figma",
         color: "green-text-gradient",
       },
       {
@@ -223,20 +234,20 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: Gericht,
+    source_code_link: "https://github.com/Vishnu-Biju/Restaurant-site",
   },
   {
-    name: "Trip Guide",
+    name: " GPT-3 OpenAI",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "GPT-3 OpenAI is a React-based front page that effectively showcases the specifications and latest features of GPT-3. It offers an engaging and interactive platform to explore the capabilities of GPT-3. This project serves as a comprehensive resource for users to understand the advancements of GPT-3 in a visually appealing manner.",
     tags: [
       {
-        name: "nextjs",
+        name: "react.js",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "react-icons",
         color: "green-text-gradient",
       },
       {
@@ -244,8 +255,71 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: OpenAI,
+    source_code_link: "https://github.com/Vishnu-Biju/GPT-3",
+  },
+  {
+    name: "Portfolio",
+    description:
+      "A This personal portfolio project utilizes Web3 technology along with React Three to create an immersive experience. It incorporates animations and 3D objects to showcase the user's skills, information, and experience in a visually engaging manner. The portfolio serves as a dynamic representation of the user's abilities, providing an interactive and unique way to present their professional profile.",
+    tags: [
+      {
+        name: "React-three",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "green-text-gradient",
+      },
+      {
+        name: "animation",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: portfolio,
+    source_code_link: "https://github.com/Vishnu-Biju/web-three-portfolio",
+  },
+  {
+    name: "Cara",
+    description:
+      "This front-end design project involves creating a visually appealing cloth shopping e-commerce application using HTML, CSS, and JavaScript. The design will focus on providing a user-friendly interface for browsing and selecting clothing items. It will incorporate responsive layouts, attractive styling, and interactive elements to enhance the shopping experience.",
+    tags: [
+      {
+        name: "javascript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "html5",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: Cara,
+    source_code_link: "https://github.com/Vishnu-Biju/E-commercial-website-",
+  },
+  {
+    name: "portfolio-react",
+    description:
+      "This personal portfolio project, developed with React and animations, presents a visually captivating showcase of skills, information, and experience. Through dynamic and interactive elements, it highlights the user's expertise and achievements. The portfolio offers a compelling platform for visitors to explore the user's profile and gain a comprehensive understanding of their capabilities.",
+    tags: [
+      {
+        name: "reactjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "scss",
+        color: "green-text-gradient",
+      },
+      {
+        name: "animations",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: portfolioreact,
+    source_code_link: "https://github.com/Vishnu-Biju/portfolio",
   },
 ];
 
